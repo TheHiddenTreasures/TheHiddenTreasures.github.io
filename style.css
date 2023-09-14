@@ -59,35 +59,35 @@ h1 {
     font-size: 70px;
     color: #8B4513;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    overflow: hidden; /* Hide overflowing text */
-    border-right: 2px solid #000; /* Cursor border color */
-    white-space: nowrap; /* Prevent text from wrapping */
-    margin: 0 auto; /* Center the text */
-    display: inline-block; /* Display as inline block */
-    padding-right: 10px; /* Spacing after text */
-    animation: typewriter 3s steps(40, end), blink-caret 0.5s step-end infinite; /* Typing animation */
+    overflow: hidden; 
+    border-right: 2px solid #000; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    display: inline-block;
+    padding-right: 10px;
+    animation: typewriter 3s steps(40, end), blink-caret 0.5s step-end infinite;
 }
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 35px; /* Adjust the font size for smaller screens */
+        font-size: 32px; /* Adjust the font size for smaller screens */
     }
 }
 
 @keyframes typewriter {
     from {
-        width: 0; /* Start with no text */
+        width: 0; 
     }
     to {
-        width: 100%; /* End with full text */
+        width: 100%; 
     }
 }
 
 @keyframes blink-caret {
     from, to {
-        border-color: transparent; /* Hide cursor */
+        border-color: transparent; 
     }
     50% {
-        border-color: #000; /* Show cursor */
+        border-color: #000; 
     }
 }
