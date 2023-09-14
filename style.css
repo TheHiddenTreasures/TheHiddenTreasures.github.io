@@ -70,7 +70,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 40px; /* Adjust the font size for smaller screens */
+        font-size: 35px; /* Adjust the font size for smaller screens */
     }
 }
 
